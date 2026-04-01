@@ -1,0 +1,14 @@
+Ticket: My account has been hacked and I cannot login
+Predicted Category: Account
+Predicted Priority: High
+
+My ticket success
+Ticket: I want refund for my payment
+Predicted Category: Billing
+Predicted Priority: High
+
+My ticket success
+Ticket: Website is not working properly
+Predicted Category: Technical
+Predicted Priority: High
+My ticket success

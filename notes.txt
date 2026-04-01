@@ -1,0 +1,55 @@
+TICKET CLASSIFICATION SYSTEM USING MACHINE LEARNING
+Aim
+To develop a machine learning system that automatically classifies customer support tickets into category and priority levels.
+Objective:
+To reduce manual effort in handling tickets, improve response time, and automatically identify urgent issues.
+Overview:
+In many organizations, customer support teams receive a large number of tickets every day. Manually analyzing and sorting them is time-consuming. This system uses machine learning techniques to understand the ticket content and assign the correct category and priority automatically.
+Dataset Description:
+The dataset contains three main fields:
+Ticket Text – description of the issue
+Category – type of issue such as Billing, Technical, Account
+Priority – urgency level such as High, Medium, Low
+Methodology:
+Step 1: Data Collection
+The dataset is created and organized in a structured format containing ticket text, category, and priority.
+Step 2: Data Preprocessing
+Text data is cleaned by converting it to lowercase and removing punctuation and unnecessary characters. This helps in improving model performance and consistency.
+Step 3: Feature Extraction
+Text data is converted into numerical format using TF-IDF. This technique assigns importance to words and reduces the impact of commonly used words.
+Step 4: Data Splitting
+The dataset is divided into training data and testing data. Training data is used to build the model, while testing data is used to evaluate performance.
+Step 5: Model Training
+For category prediction, the Naive Bayes algorithm is used as it performs well for text classification tasks.
+For priority prediction, Logistic Regression is used because it is suitable for multi-class classification problems.
+Step 6: Prediction
+When a new ticket is given, the system processes the text, converts it into numerical form, and predicts both category and priority.
+Step 7: Evaluation
+The performance of the model is evaluated using different metrics:
+Accuracy – measures overall correctness
+Precision – measures correct positive predictions
+Recall – measures how many actual positives are identified
+F1-score – balance between precision and recall
+Confusion Matrix – shows correct and incorrect predictions
+Advantages:
+Reduces manual effort
+Improves efficiency of support systems
+Handles large volume of tickets
+Provides faster responses
+Disadvantages:
+Small dataset leads to low accuracy
+Cannot handle complex language effectively
+Requires continuous improvement and training
+Applications:
+Customer support systems
+Helpdesk automation
+Chatbots
+E-commerce platforms
+Banking services
+Conclusion:
+This system shows how machine learning can automate ticket classification and prioritization. It improves efficiency but needs larger datasets and advanced models for better accuracy.
+Future Enhancements
+Use larger datasets
+Apply advanced machine learning models
+Develop web or mobile application
+Enable real-time processing
